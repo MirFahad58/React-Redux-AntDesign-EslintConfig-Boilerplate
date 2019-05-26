@@ -38,7 +38,7 @@ class LoginForm extends react.Component {
               message.success("You are logged in");
 
               localStorage.setItem(
-                "TRUKKR_TOKEN",
+                "APP_TOKEN",
                 response.payload.data.jwtToken
               );
               onChangeActiveNav(["sub0"]);
@@ -50,7 +50,7 @@ class LoginForm extends react.Component {
               }, 0);
             } else {
               localStorage.setItem(
-                "TRUKKR_AUTH_TOKEN",
+                "APP_AUTH_TOKEN",
                 response.payload.data.jwtToken
               );
               this.props.history.push("/auth");

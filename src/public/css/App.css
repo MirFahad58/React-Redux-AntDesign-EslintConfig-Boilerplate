@@ -1,0 +1,163 @@
+@media screen and (max-width:502px)
+{
+
+ 
+ .Iinput{
+   
+   width: 80%;
+   margin-left: 10%;
+ }
+.Iinput::placeholder{
+font-size: 2px
+}
+ .text2{
+
+  margin-left: 25%;
+ }
+ .text1{
+   margin-left: 10%;
+ }
+
+}
+
+
+@media screen and (min-width:503px) and (max-width:765px){
+  .text2{
+
+    margin-left: 25%;
+   }
+}
+@media  screen and (max-width:600px) and (min-width:503px) {
+  .Iinput{
+    clear: both;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+.text{
+  margin-left: 0%;
+  padding-left: 0%;
+
+clear: both;
+}
+.text1{
+  clear: both;
+  padding-right: 6%;
+
+}
+.inputfields{
+ width: 80%;
+ 
+}
+.pad{
+  margin-right: 20%
+}
+.padd{
+  clear: both;
+
+  margin-left:5%;
+padding-right: 100px;
+
+}
+
+
+
+@media screen and (max-height:572px){
+  .bottomSpace{
+    overflow: scroll;
+  }
+}
+
+.borderremove{
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  box-shadow:  0 6px 25px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px
+ 
+}
+@media screen and (min-width:768px) and (max-height:703px){
+  .login_footer_main{
+    display: none;
+  }
+  .borderremove{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    box-shadow:  0 6px 25px 0 rgba(0, 0, 0, 0.12);
+   
+}
+}
+@media screen and (max-height:700px)
+{
+  .login_footer_main{
+    display: none;
+  }
+}
+
+@media screen and (max-width:767px){
+  .signup_view{
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-height:606px){
+  .borderremove {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    top: 50%;
+    left: 47%;
+    width:900px;
+    position: absolute;
+    
+    height:600px ;
+    margin-top: -300px; /*set to a negative number 1/2 of your height*/
+    margin-left: -400px; /*set to a negative number 1/2 of your width*/
+
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-height:606px){
+  .borderremove {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    top: 50%;
+    left: 47%;
+    width:900px;
+    position: absolute;
+    
+    height:600px ;
+    margin-top: -300px; /*set to a negative number 1/2 of your height*/
+    margin-left: -400px; /*set to a negative number 1/2 of your width*/
+
+  }
+}
+
+
+@media screen and (max-width:766px) {
+  .bgcolor{background-image:none}
+  .mobileMargin{
+    margin-top: -9%;
+  }
+  .marginRigh{
+    margin-bottom: 5%
+  }
+}
+.marginLef{
+  padding-left: 1px;
+
+}
+.marginRigh{
+  padding-right: 5px;
+}
+
+
+.pakistan {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../asset/images/pak.png');
+
+ 
+}

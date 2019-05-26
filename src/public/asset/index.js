@@ -1,0 +1,27 @@
+export const Images = {
+  ICON_ONE: require('./icons/1.png'),
+  ICON_TWO: require('./icons/2.png'),
+  ICON_THREE: require('./icons/3.png'),
+  ICON_FOUR: require('./icons/4.png'),
+  ICON_FIVE: require('./icons/5.png'),
+  TRUCK_ONE: require('./icons/truck.png'),
+  TRUCK_TWO: require('./icons/ass.png'),
+  DRIVER_LOGO: require('./icons/driver.png'),
+  DRIVER: require('./images/driver.jpg'),
+  NO_DATA: require('./icons/nodata.png'),
+  LINER: require('./icons/Liner.png'),
+  BOOK: require('./icons/sdf.png'),
+  LOGO_DARK: require('./images/LogoDark.png'),
+  LOGO_WHITE: require('./images/LogoWhite.png'),
+  LOGO_FRONT: require('./images/LogoFront.png'),
+  BROKER:require('./icons/broker.jpg'),
+  USER:require('./images/user.png'),
+  WORLD:require('./images/world.png'),
+  TRIP:require('./images/Trip.png'),
+  ADDDRIVER:require('./icons/AddD.png'),
+  DRIVER2:require('./icons/Driver2.png'),
+  TRUKKR:require('./images/pak.png'),
+  LOGO_TRUKKR:require('./images/trukkr.png'),
+  MAIN:require('./Main.png')
+
+};
